@@ -9,7 +9,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("Strawberry");
 
   //on load effect which is similar to "componenetDidMount" etc
   useEffect(() => {
